@@ -15,27 +15,33 @@
             font-family: 'Lexend', sans-serif;
         }
         html, body{
-            overflow-x: hidden;
+            /* overflow-x: hidden; */
         }
+        .backdrop-blur-custom {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px); 
+    }
     </style>
 </head>
 <body class="font-lexend">
-    <header class="container mx-auto sticky top-0 z-1000">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-                <a class="btn bg-[#B4F461]">Blog</a>
-            </div>
-            <div class="navbar-center">
-                <a class="btn btn-ghost text-xl"><img src="./images/logo.png" alt=""> Donate Bangladesh</a>
-            </div>
-            <div class="navbar-end">
-              <p class="flex items-center font-bold"><img class="pr-1" src="./images/coin.png" alt=""><span>5500</span> BDT</p>
-            </div>
-          </div>
-          <div class="flex mt-6 justify-center">
-            <button class="btn btn-primary mr-4">Donation</button>
-            <button class="btn btn-primary">History</button>
-          </div>
+    <header class="sticky top-0 z-50 bg-green-100 bg-opacity-60 backdrop-blur-custom shadow-md">
+        <div class="container mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <a class="btn bg-[#B4F461]">Blog</a>
+                </div>
+                <div class="navbar-center">
+                    <a class="btn btn-ghost text-xl"><img src="./images/logo.png" alt=""> Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end">
+                  <p class="flex items-center font-bold"><img class="pr-1" src="./images/coin.png" alt=""><span>5500</span> BDT</p>
+                </div>
+              </div>
+              <div class="flex mt-6 p-4 justify-center">
+                <button class="btn btn-primary mr-6">Donation</button>
+                <button class="btn btn-primary">History</button>
+              </div>
+        </div>
     </header>
     <main class="container mx-auto">
         <div class="hero bg-base-200 mt-7 rounded-xl">
