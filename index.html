@@ -21,6 +21,15 @@
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px); 
     }
+    .default {
+            background-color: #B4F461 !important; 
+            color: black;
+        }
+    .active{
+        background-color: #B4F461 !important;
+        color: black;
+    }
+    
     </style>
 </head>
 <body class="font-lexend">
@@ -38,12 +47,13 @@
                 </div>
               </div>
               <div class="flex mt-6 p-4 justify-center">
-                <button class="btn btn-primary mr-6">Donation</button>
-                <button class="btn btn-primary">History</button>
+                <button id="donationBtn" class="btn default bg-slate-200 mr-6">Donation</button>
+                <button id="historyBtn" class="btn bg-slate-200">History</button>
               </div>
         </div>
     </header>
     <main class="container mx-auto">
+        <div id="donation-section">
         <div class="hero bg-base-200 mt-7 rounded-xl">
             <div class="hero-content flex-col lg:flex-row">
               <img
@@ -142,6 +152,12 @@
               </div>
             </div>
           </div>
+        </div>
+        <div id="history-section">
+            <div class="" id="history-container">
+
+            </div>
+        </div>
     </main>
     <script src="./js folder/function.js"></script>
     <script src="./js folder/home-page.js"></script>
