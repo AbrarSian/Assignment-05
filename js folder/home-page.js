@@ -1,3 +1,7 @@
+document.getElementById('navigate-btn').addEventListener('click', function() {
+    window.location.href = './blog.html';
+});
+
 document.getElementById('donationBtn').addEventListener('click',function(){
     document.getElementById('historyBtn').classList.remove('active',true);
     document.getElementById('donationBtn').classList.add('default',true);

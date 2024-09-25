@@ -14,9 +14,6 @@
         .font-lexend{
             font-family: 'Lexend', sans-serif;
         }
-        html, body{
-            /* overflow-x: hidden; */
-        }
         .backdrop-blur-custom {
       backdrop-filter: blur(10px);
       -webkit-backdrop-filter: blur(10px); 
@@ -34,10 +31,10 @@
 </head>
 <body class="font-lexend">
     <header class="sticky top-0 z-50 bg-green-100 bg-opacity-60 backdrop-blur-custom shadow-md">
-        <div class="container mx-auto">
+        <div class="sm:container sm:mx-auto overflow-x-hidden">
             <div class="navbar">
                 <div class="navbar-start">
-                    <a class="btn bg-[#B4F461]">Blog</a>
+                    <a id="navigate-btn" class="btn bg-[#B4F461]">Blog</a>
                 </div>
                 <div class="navbar-center">
                     <a class="btn btn-ghost text-xl"><img src="./images/logo.png" alt=""> Donate Bangladesh</a>
@@ -161,5 +158,6 @@
     </main>
     <script src="./js folder/function.js"></script>
     <script src="./js folder/home-page.js"></script>
+    <script src="./js folder/blog-page.js"></script>
 </body>
 </html>
