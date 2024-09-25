@@ -21,7 +21,7 @@ document.getElementById('button-clicker').addEventListener('click',function(even
     let addingMoney = document.getElementById('donate1').value;
     let donatedBox= getTheMoneyAmount('total-donate');
     let balance = getTheMoneyAmount('balance');
-    if(!isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
+    if(addingMoney !== '' && !isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
 const closeModalBtn = document.getElementById('closeModalBtn');
 const modal = document.getElementById('myModal');
 
@@ -59,7 +59,7 @@ document.getElementById('button-clicker1').addEventListener('click',function(eve
     let addingMoney = document.getElementById('donate2').value;
     let donatedBox= getTheMoneyAmount('total-donate1');
     let balance = getTheMoneyAmount('balance');
-    if(!isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
+    if(addingMoney !== '' && !isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
         const closeModalBtn = document.getElementById('closeModalBtn1');
         const modal = document.getElementById('myModal1');
         
@@ -96,7 +96,7 @@ document.getElementById('button-clicker2').addEventListener('click',function(eve
     let addingMoney = document.getElementById('donate3').value;
     let donatedBox= getTheMoneyAmount('total-donate2');
     let balance = getTheMoneyAmount('balance');
-    if(!isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
+    if(addingMoney !== '' && !isNaN(addingMoney) && addingMoney >= 0 && addingMoney<balance){
         const closeModalBtn = document.getElementById('closeModalBtn2');
         const modal = document.getElementById('myModal2');
         
