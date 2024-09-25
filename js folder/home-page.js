@@ -44,7 +44,7 @@ window.addEventListener('click', (event) => {
         div.classList.add('border-solid','border-2','border-black','mb-4','p-3');
         const uniqueid = 'current-date-' + Date.now();
         div.innerHTML=`
-        <h4 class="text-2xl font-bold">${addingMoney} is donated for flood at Noakhali,Bangladesh</h4>
+        <h4 class="text-2xl font-bold">${addingMoney} Taka is donated for flood at Noakhali,Bangladesh</h4>
         <p>Date:<span id="${uniqueid}"></span></p>
         `
         document.getElementById('history-container').appendChild(div);
@@ -81,7 +81,7 @@ document.getElementById('button-clicker1').addEventListener('click',function(eve
         div.classList.add('border-solid','border-2','border-black','mb-4','p-3');
         const uniqueid = 'current-date-' + Date.now();
         div.innerHTML=`
-        <h4 class="text-2xl font-bold">${addingMoney} is donated for Flood Relief in Feni,Bangladesh</h4>
+        <h4 class="text-2xl font-bold">${addingMoney} Taka is donated for Flood Relief in Feni,Bangladesh</h4>
         <p>Date:<span id="${uniqueid}"></span></p>
         `
         document.getElementById('history-container').appendChild(div);
@@ -118,7 +118,7 @@ document.getElementById('button-clicker2').addEventListener('click',function(eve
         div.classList.add('border-solid','border-2','border-black','mb-4','p-3');
         const uniqueid = 'current-date-' + Date.now();
         div.innerHTML=`
-        <h4 class="text-2xl font-bold">${addingMoney} is Aided for Injured in the Quota Movement</h4>
+        <h4 class="text-2xl font-bold">${addingMoney} Taka is Aided for Injured in the Quota Movement</h4>
         <p>Date:<span id="${uniqueid}"></span></p>
         `
         document.getElementById('history-container').appendChild(div);
